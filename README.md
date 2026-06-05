@@ -17,7 +17,7 @@ Takes a fuel receipt image → runs OCR → asks natural-language questions agai
   "unit_price":   { "value": "102.45",                  "confidence": 0.89 },
   "volume":       { "value": "25.500",                  "confidence": 0.92 },
   "total_amount": { "value": "2612.47",                 "confidence": 0.93 },
-  "currency":     { "value": "₹",                      "confidence": 0.88 }
+  "currency":     { "value": "₹",                       "confidence": 0.88 }
 }
 ```
 
@@ -169,7 +169,7 @@ onnxconverter-common
 
 System dependency (Tesseract binary):
 ```bash
-apt-get install -y tesseract-ocr   # Linux / Colab
+apt-get install -y tesseract-ocr    # Linux
 brew install tesseract              # macOS
 ```
 
